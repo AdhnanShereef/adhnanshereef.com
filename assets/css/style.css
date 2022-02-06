@@ -21,8 +21,23 @@ body {
   color: var(--text) !important;
 }
 
-::-webkit-scrollbar {
-  width: 0px;
+/* Scroll Bar */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary) transparent;
+}
+
+html::-webkit-scrollbar {
+  width: 1vw;
+}
+html::-webkit-scrollbar-thumb {
+  background: var(--secondary);
+}
+html::-webkit-scrollbar-thumb:hover {
+  background: var(--tertiary);
+}
+html::-webkit-scrollbar-track {
+  background: transparent;
 }
 
 .background {
@@ -55,10 +70,16 @@ body {
   font-weight: bold;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .padding-top {
-  padding-top: 200px;
+  padding-top: 110px !important;
 }
 
 .padding-bottom {
-  padding-bottom: 200px;
+  padding-bottom: 225px !important;
 }
