@@ -1,0 +1,64 @@
+/* !-----Pre-Sets-----! */
+
+* {
+  padding: 0px !important;
+  margin: 0px !important;
+  font-family: roboto-mono;
+  border: none;
+  text-decoration: none;
+  outline: none;
+}
+
+/* Font */
+@font-face {
+  font-family: roboto-mono;
+  src: url(../font/RobotoMono-VariableFont_wght.ttf);
+  font-weight: normal;
+}
+
+body {
+  background: var(--primary) !important;
+  color: var(--text) !important;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.background {
+  background: -moz-linear-gradient(90deg, #002853 0%, #040c18 100%);
+
+  background: -webkit-linear-gradient(90deg, #002853 0%, #040c18 100%);
+
+  background: -o-linear-gradient(90deg, #002853 0%, #040c18 100%);
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#040C18', endColorstr='#002853', GradientType=0 );
+
+  background: -ms-linear-gradient(90deg, #002853 0%, #040c18 100%);
+
+  background: linear-gradient(90deg, #002853 0%, #040c18 100%);
+}
+.mt--3 {
+  margin-top: -10px;
+}
+
+.gradient-text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+}
+
+.header-text {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.padding-top {
+  padding-top: 200px;
+}
+
+.padding-bottom {
+  padding-bottom: 200px;
+}
