@@ -25,13 +25,16 @@ body {
 html {
   scrollbar-width: thin;
   scrollbar-color: var(--secondary) transparent;
+  border-radius: 15px;
 }
 
 html::-webkit-scrollbar {
   width: 1vw;
+  border-radius: 15px;
 }
 html::-webkit-scrollbar-thumb {
   background: var(--secondary);
+  border-radius: 15px;
 }
 html::-webkit-scrollbar-thumb:hover {
   background: var(--tertiary);
@@ -77,9 +80,60 @@ html::-webkit-scrollbar-track {
 }
 
 .padding-top {
-  padding-top: 195px !important;
+  padding-top: 205px !important;
+}
+.margin-top{
+  margin-top: 100px !important;
+}
+.padding-bottom {
+  padding-bottom: 225px !important;
 }
 
-.padding-bottom {
-  padding-bottom: 925px !important;
+.outlined-button {
+  color: var(--text);
+  border: 1px solid var(--text);
+  border-radius: 10px;
+  padding: 10px 30px !important;
+  text-decoration: none;
+  background: transparent;
+  text-align: center;
+}
+
+.outlined-button:hover {
+  transition: 0.5s ease-in-out;
+  background-color: var(--text);
+  color: var(--primary);
+}
+
+
+.font-size{
+  font-size: 240px;
+}
+
+.navbar a h1{
+  font-size: 40px;
+}
+
+@media screen and (max-width: 991px) {
+  .about{
+    text-align: center;
+  }
+}
+
+@media screen and(max-width: 400){
+  .navbar{
+    padding-left: 10px !important;
+  }
+  .font-size{
+    font-size: 140px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .navbar a h1{
+    font-size: 25px;
+  }
+  .padding-top {
+    padding-top: 105px !important;
+  }
 }
