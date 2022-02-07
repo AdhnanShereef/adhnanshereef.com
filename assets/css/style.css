@@ -1,7 +1,7 @@
 /* !-----Pre-Sets-----! */
 
 * {
-  padding: 0px !important;
+  padding: 0px ;
   margin: 0px !important;
   font-family: roboto-mono;
   border: none;
@@ -80,20 +80,20 @@ html::-webkit-scrollbar-track {
 }
 
 .padding-top {
-  padding-top: 205px !important;
+  padding-top: 205px;
 }
 .margin-top{
-  margin-top: 100px !important;
+  margin-top: 50px !important;
 }
 .padding-bottom {
-  padding-bottom: 225px !important;
+  padding-bottom: 225px;
 }
 
 .outlined-button {
   color: var(--text);
   border: 1px solid var(--text);
   border-radius: 10px;
-  padding: 10px 30px !important;
+  padding: 7.5px 15px;
   text-decoration: none;
   background: transparent;
   text-align: center;
@@ -103,6 +103,28 @@ html::-webkit-scrollbar-track {
   transition: 0.5s ease-in-out;
   background-color: var(--text);
   color: var(--primary);
+}
+.button {
+  color: var(--primary);
+  border: 1px solid var(--text);
+  border-radius: 10px;
+  padding: 7.5px 15px;
+  text-decoration: none;
+  background: var(--text);
+  text-align: center;
+}
+
+.button:hover {
+  transition: 0.5s ease-in-out;
+  background-color: transparent;
+  color: var(--text);
+}
+
+.outline{
+  padding: 20px ;
+  margin: 10px !important;
+  border: 1px solid var(--text);
+  border-radius: 10px;
 }
 
 
@@ -114,15 +136,25 @@ html::-webkit-scrollbar-track {
   font-size: 40px;
 }
 
+
 @media screen and (max-width: 991px) {
   .about{
     text-align: center;
   }
+  .about-logo{
+    display: none;
+  }
+  .padding-top {
+    padding-top: 150px;
+  }
+  .padding-bottom {
+    padding-bottom: 75px;
+  }
 }
 
-@media screen and(max-width: 400){
+@media screen and (max-width: 400px){
   .navbar{
-    padding-left: 10px !important;
+    padding-left: 10px;
   }
   .font-size{
     font-size: 140px;
@@ -130,10 +162,16 @@ html::-webkit-scrollbar-track {
 }
 
 @media screen and (max-width: 300px) {
+  .header-text{
+    font-size: 30px;
+  }
   .navbar a h1{
     font-size: 25px;
   }
-  .padding-top {
-    padding-top: 105px !important;
+  .outline{
+    padding: 8px;
+  }
+  .outlined-button{
+    padding: 5px 10px; 
   }
 }
