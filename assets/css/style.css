@@ -80,7 +80,7 @@ html::-webkit-scrollbar-track {
 }
 
 .padding-top {
-  padding-top: 150px;
+  padding-top: 190px;
 }
 .margin-top{
   margin-top: 50px !important;
@@ -145,7 +145,7 @@ html::-webkit-scrollbar-track {
     display: none;
   }
   .padding-top {
-    padding-top: 150px;
+    padding-top: 125px;
   }
   .padding-bottom {
     padding-bottom: 75px;
@@ -159,12 +159,12 @@ html::-webkit-scrollbar-track {
   .font-size{
     font-size: 140px;
   }
-}
-
-@media screen and (max-width: 300px) {
   .header-text{
     font-size: 30px;
   }
+}
+
+@media screen and (max-width: 300px) {
   .navbar a h1{
     font-size: 25px;
   }
