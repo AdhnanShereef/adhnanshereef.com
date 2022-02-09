@@ -1,8 +1,9 @@
+/* Variables */
 :root{
     --primary: #040c18;
     --secondary: #002853;
     --tertiary: #003c7c;
     --text: #edf2fc;
     --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
-    --hover: #00205f;
+    --translucent: #3d48537c;
 }

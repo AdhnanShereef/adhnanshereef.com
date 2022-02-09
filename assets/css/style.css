@@ -1,5 +1,5 @@
 * {
-  padding: 0px ;
+  padding: 0px;
   margin: 0px !important;
   font-family: roboto-mono;
   border: none;
@@ -7,19 +7,19 @@
   outline: none;
 }
 
-/* Font */
+body {
+  background: var(--primary) !important;
+  color: var(--text) !important;
+}
+
+/* --------Font-------- */
 @font-face {
   font-family: roboto-mono;
   src: url(../font/RobotoMono-VariableFont_wght.ttf);
   font-weight: normal;
 }
 
-body {
-  background: var(--primary) !important;
-  color: var(--text) !important;
-}
-
-/* Scroll Bar */
+/* --------Scroll Bar-------- */
 html {
   scroll-behavior: smooth;
   scrollbar-width: thin;
@@ -42,6 +42,7 @@ html::-webkit-scrollbar-track {
   background: transparent;
 }
 
+/* --------Background-------- */
 .background {
   background: -moz-linear-gradient(90deg, #002853 0%, #040c18 100%);
 
@@ -55,10 +56,8 @@ html::-webkit-scrollbar-track {
 
   background: linear-gradient(90deg, #002853 0%, #040c18 100%);
 }
-.mt--3 {
-  margin-top: -10px;
-}
 
+/* --------Text-------- */
 .gradient-text {
   background: var(--gradient-text);
   background-clip: text;
@@ -72,21 +71,37 @@ html::-webkit-scrollbar-track {
   font-weight: bold;
 }
 
+.font-size {
+  font-size: 240px;
+}
+
+.navbar a h1 {
+  font-size: 40px;
+}
+
+/* --------Center-------- */
+
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* --------Paddings and Margins-------- */
 .padding-top {
   padding-top: 205px;
 }
-.margin-top{
+.margin-top {
   margin-top: 50px !important;
 }
 .padding-bottom {
   padding-bottom: 225px;
 }
+.contact-padding {
+  padding: 20px;
+}
+
+/*--------Buttons-------- */
 
 .outlined-button {
   color: var(--text);
@@ -119,25 +134,16 @@ html::-webkit-scrollbar-track {
   color: var(--text);
 }
 
-.outline{
-  padding: 20px ;
+/* --------Outline-------- */
+
+.outline {
+  padding: 20px;
   margin: 10px !important;
   border: 1px solid var(--text);
   border-radius: 10px;
 }
 
-
-.font-size{
-  font-size: 240px;
-}
-
-.navbar a h1{
-  font-size: 40px;
-}
-
-.contact-padding{
-  padding: 20px;
-}
+/* --------Input-------- */
 
 .input {
   border-radius: 10px;
@@ -182,12 +188,13 @@ html::-webkit-scrollbar-track {
   margin-top: 3px !important;
 }
 
+/* --------Media Queries-------- */
 
 @media screen and (max-width: 991px) {
-  .about{
+  .about {
     text-align: center;
   }
-  .about-logo{
+  .about-logo {
     display: none;
   }
   .padding-top {
@@ -198,63 +205,64 @@ html::-webkit-scrollbar-track {
   }
 }
 
-@media screen and (max-width: 400px){
-  .navbar{
+@media screen and (max-width: 400px) {
+  .navbar {
     padding-left: 10px;
   }
-  .font-size{
+  .font-size {
     font-size: 140px;
   }
-  .header-text{
+  .header-text {
     font-size: 30px;
   }
-  .contact-padding{
+  .contact-padding {
     padding: 10px;
   }
-  .footer h1{
+  .footer h1 {
     font-size: 10px !important;
   }
 }
 
 @media screen and (max-width: 300px) {
-  .navbar a h1{
+  .navbar a h1 {
     font-size: 25px;
   }
-  .outline{
+  .outline {
     padding: 8px;
   }
-  .outlined-button{
-    padding: 5px 10px; 
+  .outlined-button {
+    padding: 5px 10px;
   }
-  .input input, .input textarea, .input input::placeholder, .input textarea::placeholder{
+  .input input,
+  .input textarea,
+  .input input::placeholder,
+  .input textarea::placeholder {
     font-size: 10px !important;
   }
 }
 
+/* --------Menu-------- */
 
-
-/* Menu */
-
-.menu{
+.menu {
   width: 475px;
   position: fixed;
   bottom: 1rem;
   left: 50%;
   transform: translate(-50%);
-  background: #3d48537c;
+  background: var(--translucent);
   border-radius: 4rem;
   padding: 5px 2.25rem;
   backdrop-filter: blur(15px);
 }
 
-.menu-items{
-  padding: .4rem;
+.menu-items {
+  padding: 0.4rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.menu-items a{
+.menu-items a {
   text-decoration: none;
   font-size: 12.5px;
   background: var(--gradient-text);
@@ -263,7 +271,7 @@ html::-webkit-scrollbar-track {
   -webkit-text-fill-color: transparent;
 }
 
-.menu-items a:hover{
+.menu-items a:hover {
   background: var(--text);
   background-clip: text;
   -webkit-background-clip: text;
@@ -271,14 +279,14 @@ html::-webkit-scrollbar-track {
 }
 
 @media screen and (max-width: 500px) {
-  .menu{
+  .menu {
     padding: 15px 1rem;
     width: 95%;
   }
-  .menu-items{
-    padding: .1rem;
+  .menu-items {
+    padding: 0.1rem;
   }
-  .menu-items a{
+  .menu-items a {
     text-decoration: none;
     font-size: 7.5px;
     background: var(--gradient-text);
@@ -288,8 +296,8 @@ html::-webkit-scrollbar-track {
   }
 }
 
-@media screen and (max-width: 280px){
-  .menu{
+@media screen and (max-width: 280px) {
+  .menu {
     display: none;
   }
 }
