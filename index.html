@@ -16,6 +16,10 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/74e5b95d58.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Bootstrap CSS -->
     <link
@@ -47,10 +51,38 @@
     </nav>
 
     <!-- Menu -->
-    <nav id="menu" class="menu"></nav>
+    <nav id="menu" class="menu">
+      <div class="menu-items" style="text-align: center">
+        <!-- Home -->
+        <a href="/#home">
+          <i class="fa-solid fa-house"></i>
+          <p>Home</p>
+        </a>
+        <!-- About -->
+        <a href="/#about">
+          <i class="fa-solid fa-user"></i>
+          <p>About</p>
+        </a>
+        <!-- Projects -->
+        <a href="/#projects">
+          <i class="fa-solid fa-diagram-project"></i>
+          <p>Projects</p>
+        </a>
+        <!-- Skills -->
+        <a href="/#skills">
+          <i class="fa-solid fa-brain"></i>
+          <p>Skills</p>
+        </a>
+        <!-- Contact -->
+        <a href="/#contact">
+          <i class="fa-solid fa-address-card"></i>
+          <p>Contact</p>
+        </a>
+      </div>
+    </nav>
 
     <!-- Header -->
-    <header id="header" class="header background padding-top padding-bottom">
+    <header id="home" class="header background padding-top padding-bottom">
       <div class="row">
         <div
           class="col-lg-6 center p-3 mb-5"
@@ -611,26 +643,26 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer background center" style="flex-direction: column">
+    <footer
+      class="footer background center pb-5"
+      style="flex-direction: column"
+    >
       <div class="container" style="text-decoration: none; color: white">
         <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
           <div class="col-md-8 col-12 mt-3">
+            <hr class="mb-2" style="margin: 10% 15% 5%" />
             <p style="line-height: 1.7rem">
               " Everything is possible if we work for it "
             </p>
           </div>
         </div>
-        <hr
-          class="clearfix d-md-none rgba-white-light"
-          style="margin: 10% 15% 5%"
-        />
       </div>
       <div
         class="footer-copyright text-center py-3 gradient-text"
         style="font-size: 15px"
       >
         <h1
-          class="text-center header-text gradient-text"
+          class="text-center header-text gradient-text pb-3"
           style="font-size: 15px"
         >
           Copyright (c) 2022 Adhnan Shereef T
