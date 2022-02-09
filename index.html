@@ -154,7 +154,8 @@
           <h3>To Do App</h3>
           <br />
           <p style="font-size: 10px !important" class="mb-3">
-            A To-Do App to list programs based on daily simple and securely with Node.js, Handlebars, and MongoDB.
+            A To-Do App to list programs based on daily simple and securely with
+            Node.js, Handlebars, and MongoDB.
           </p>
           <a
             href="https://github.com/AdhnanShereef/To_Do_App/"
@@ -551,8 +552,56 @@
     </section>
 
     <!-- Contact Me -->
-    <section id="contact" class="contact background padding-bottom">
+    <section id="contact" class="contact background pb-5">
       <h1 class="text-center header-text gradient-text">Contact Me</h1>
+      <div class="margin-top contact-padding">
+        <form id="gform" class="col-md-12">
+          <div class="form-group">
+            <label class="mb-3 ps-3" for="name" style="font-size: 20px">Name</label>
+            <div class="input mb-5">
+              <i class="fas fa-user pe-3"></i>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter your Name"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="mb-3 ps-3" for="email" style="font-size: 20px">Name</label>
+            <div class="input mb-5">
+              <i class="fas fa-envelope pe-3"></i>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="name@example.com"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="mb-3 ps-3" style="font-size: 20px"
+              ><i class="fas fa-comment-alt"></i> Message</label
+            >
+            <div class="input mb-5">
+              <textarea
+                id="message"
+                name="message"
+                rows="7.5"
+                required
+              ></textarea>
+            </div>
+          </div>
+          <button
+        class="outlined-button text-center"
+        style="width: 100%;"
+        type="submit"
+      >Submit</button>
+        </form>
+      </div>
     </section>
 
     <!-- Footer -->
