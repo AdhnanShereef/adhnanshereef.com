@@ -7,8 +7,7 @@
 > [LinkedIn](https://www.linkedin.com/in/adhnanshereef)  
 > [Instagram](https://www.instagram.com/adhnanshereef)  
 > [Facebook](https://www.facebook.com/AdhnanShereef)  
-> [Dev.to](https://dev.to/adhnanshereef)  
-
+> [Dev.to](https://dev.to/adhnanshereef)
 
 #### Projects
 
@@ -26,6 +25,20 @@
     > - Hive
     > - Intl
     > - Shared Preferences
+    
+- ##### To Do App
+  - A To-Do App to list programs based on daily simple and securely.
+  - [Github Repository](https://github.com/AdhnanShereef/To_Do_App)
+  - ##### Used Items
+    > - Node.js
+    > - Handlebars
+    > - CSS
+    > - JavaScript
+    > - Bootstrap
+    > - JQuery
+    > - Express.js
+    > - MongoDB
+    > - Bcrypt
 
 - ##### Shopping Cart
   - A simple e-commerce application
@@ -35,6 +48,8 @@
     > - Handlebars
     > - CSS
     > - JavaScript
+    > - Bootstrap
+    > - JQuery
     > - MongoDB
     > - Razorpay
     > - Express.js
