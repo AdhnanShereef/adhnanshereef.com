@@ -95,7 +95,7 @@ html::-webkit-scrollbar-track {
   margin-top: 50px !important;
 }
 .padding-bottom {
-  padding-bottom: 225px;
+  padding-bottom: 207.5px;
 }
 .contact-padding {
   padding: 20px;
@@ -186,6 +186,11 @@ html::-webkit-scrollbar-track {
 }
 .input i {
   margin-top: 3px !important;
+}
+
+/* --------Links-------- */
+.links a:hover{
+  color: var(--hover) !important;
 }
 
 /* --------Media Queries-------- */

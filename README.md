@@ -7,7 +7,9 @@
 > [LinkedIn](https://www.linkedin.com/in/adhnanshereef)  
 > [Instagram](https://www.instagram.com/adhnanshereef)  
 > [Facebook](https://www.facebook.com/AdhnanShereef)  
-> [Dev.to](https://dev.to/adhnanshereef)
+> [Github](https://github.com/AdhnanShereef)  
+> [Dev.to](https://dev.to/adhnanshereef)  
+> [Website](https://www.adhnanshereef.ga)
 
 #### Projects
 
