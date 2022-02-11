@@ -9,7 +9,7 @@
 > [Facebook](https://www.facebook.com/AdhnanShereef)  
 > [Github](https://github.com/AdhnanShereef)  
 > [Dev.to](https://dev.to/adhnanshereef)  
-> [Website](https://www.adhnanshereef.ga)
+> [Website](https://www.adhnanshereef.gq)
 
 #### Projects
 
