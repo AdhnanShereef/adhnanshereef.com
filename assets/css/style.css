@@ -189,7 +189,7 @@ html::-webkit-scrollbar-track {
 }
 
 /* --------Links-------- */
-.links a:hover{
+.links a:hover {
   color: var(--hover) !important;
 }
 
