@@ -28,6 +28,14 @@
     > - Intl
     > - Shared Preferences
     
+- ##### YouTube(HTML & CSS)
+
+  - It's just a simple copy of YouTube using HTML and CSS. It is completely static.
+  - [Github Repository](https://github.com/AdhnanShereef/YouTube-HTML-and-CSS)
+  - ##### Used Items
+    > - HTML
+    > - CSS
+
 - ##### To Do App
 
   - A To-Do App to list programs based on daily simple and securely.
