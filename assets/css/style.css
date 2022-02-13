@@ -13,6 +13,7 @@ body {
 }
 
 /* --------Font-------- */
+
 @font-face {
   font-family: roboto-mono;
   src: url(../font/RobotoMono-VariableFont_wght.ttf);
@@ -20,6 +21,7 @@ body {
 }
 
 /* --------Scroll Bar-------- */
+
 html {
   scroll-behavior: smooth;
   scrollbar-width: thin;
@@ -43,6 +45,7 @@ html::-webkit-scrollbar-track {
 }
 
 /* --------Background-------- */
+
 .background {
   background: -moz-linear-gradient(90deg, #002853 0%, #040c18 100%);
 
@@ -58,6 +61,7 @@ html::-webkit-scrollbar-track {
 }
 
 /* --------Text-------- */
+
 .gradient-text {
   background: var(--gradient-text);
   background-clip: text;
@@ -88,6 +92,7 @@ html::-webkit-scrollbar-track {
 }
 
 /* --------Paddings and Margins-------- */
+
 .padding-top {
   padding-top: 205px;
 }
@@ -189,6 +194,7 @@ html::-webkit-scrollbar-track {
 }
 
 /* --------Links-------- */
+
 .links a:hover {
   color: var(--hover) !important;
 }
