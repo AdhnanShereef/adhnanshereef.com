@@ -2,7 +2,7 @@
 <h1 align="center">Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, I'm Adhnan Shereef T</h1>
 <h3 align="center">13-year-old Creative Full Stack Software Developer.</h3>
 
-> Hi, I am a 13-year-old Creative Full Stack Software Developer. I am still Studying. I am passionate about programming. I would like to learn and develop new technology. I thought Everything is possible if work for it. Currently, I have 3 projects.
+> Hi, I am a 13-year-old Creative Full Stack Software Developer. I am still Studying. I am passionate about programming. I would like to learn and develop new technology. I thought Everything is possible if work for it.
 
 <h1 align="center">Find Me On</h1>
 
