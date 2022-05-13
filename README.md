@@ -10,9 +10,6 @@
 <a href = "https://www.adhnanshereef.gq"><img src="https://raw.githubusercontent.com/AdhnanShereef/adhnanshereef.com/main/assets/images/logo.png" width="50px"/><br> Website</a>
 <br>
 <br>
-<a href = "https://www.linkedin.com/in/adhnanshereef"><img src="https://www.maryville.edu/wp-content/uploads/2015/11/Linkedin-logo-1-550x550-300x300.png" width="50px" /><br> LinkedIn</a>
- <br>
-  <br>
 <a href = "https://www.instagram.com/adhnanshereef"><img src="https://img.icons8.com/color/45/000000/instagram-new.png"/><br> Instagram</a>
   <br>
   <br>
