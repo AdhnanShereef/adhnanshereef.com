@@ -10,6 +10,9 @@
 <a href = "https://www.adhnanshereef.gq"><img src="https://raw.githubusercontent.com/AdhnanShereef/adhnanshereef.com/main/assets/images/logo.png" width="50px"/><br> Website</a>
 <br>
 <br>
+ <a href = "https://twitter.com/adhnanshereef"><img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png" width="50px" /><br> Twitter</a>
+ <br>
+  <br>
 <a href = "https://www.instagram.com/adhnanshereef"><img src="https://img.icons8.com/color/45/000000/instagram-new.png"/><br> Instagram</a>
   <br>
   <br>
@@ -50,60 +53,6 @@
 <br/>
 <br/>
 
-#### Projects
-
-- ##### Outlay
-  - The Outlay is a Money Management Application developed by a boy study in 8th standard. An application to easily and securely record your income and expenses.
-  - [View Project](https://www.outlay.gq)
-  - [Github Repository](https://github.com/AdhnanShereef/Outlay)
-  - [Outlay Web Repository](https://github.com/AdhnanShereef/Outlay-Money-Manager)
-  - ###### Used Items
-    > - Fluttter
-    > - Dart
-    > - HTML
-    > - CSS
-    > - JavaScript
-    > - Hive
-    > - Intl
-    > - Shared Preferences
-- ##### To Do App
-
-  - A To-Do App to list programs based on daily simple and securely.
-  - [Github Repository](https://github.com/AdhnanShereef/To_Do_App)
-  - ##### Used Items
-    > - Node.js
-    > - Handlebars
-    > - CSS
-    > - JavaScript
-    > - Bootstrap
-    > - JQuery
-    > - Express.js
-    > - MongoDB
-    > - Bcrypt
-
-- ##### Shopping Cart
-  - A simple e-commerce application
-  - [Github Repository](https://github.com/AdhnanShereef/Shopping_Cart)
-  - ##### Used Items
-    > - Node.js
-    > - Handlebars
-    > - CSS
-    > - JavaScript
-    > - Bootstrap
-    > - JQuery
-    > - MongoDB
-    > - Razorpay
-    > - Express.js
-    > - Bcrypt
-
-##### OLX with React
-
-- Duplication of OLX with React and Firebase
-- [Github Repository](https://github.com/AdhnanShereef/OLX_with_react)
-- ##### Used Items
-  > - React
-  > - Firebase
-  > - CSS
 
 ### Skills
 
