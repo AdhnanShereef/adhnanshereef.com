@@ -1,4 +1,4 @@
-<p align="center" ><img src="https://raw.githubusercontent.com/AdhnanShereef/adhnanshereef.com/main/assets/images/logo.png"></p>
+<p align="center" ><img src="https://github.com/AdhnanShereef/adhnanshereef.com/blob/main/assets/images/logo.png?raw=true"></p>
 <h1 align="center">Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, I'm Adhnan Shereef T</h1>
 <h3 align="center">13-year-old Creative Full Stack Software Developer.</h3>
 
@@ -7,7 +7,7 @@
 <h1 align="center">Find Me On</h1>
 
 <p align="center" >
-<a href = "https://www.adhnanshereef.gq"><img src="https://raw.githubusercontent.com/AdhnanShereef/adhnanshereef.com/main/assets/images/logo.png" width="50px"/><br> Website</a>
+<a href = "https://www.adhnanshereef.gq"><img src="https://github.com/AdhnanShereef/adhnanshereef.com/blob/main/assets/images/logo.png?raw=true" width="50px"/><br> Website</a>
 <br>
 <br>
  <a href = "https://twitter.com/adhnanshereef"><img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png" width="50px" /><br> Twitter</a>
